@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/task1-styleboot.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="bg-2">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row justify-content-space-between ">
+            <div class=" col-lg-8 col-sm-8 mb-6 mb-lg-0  text-md-left d-flex ">
+              <p class="text-white p-2">Connect With us:</p>
+              <div class="d-flex flex-row bd-highlight mb-3 text-white">
+                <div class="p-2 bd-highlight selection"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="p-2 bd-highlight selection"><i class="fa-brands fa-twitter"></i> </div>
+                <div class="p-2 bd-highlight selection"><i class="fa-solid fa-wifi"></i></div>
+                <div class="p-2 bd-highlight selection"><i class="fa-brands fa-google"></i> </div>
+                <div class="p-2 bd-highlight selection"><i class="fa-brands fa-vimeo-v"></i></div>
+              </div>
+            </div>
+            <div class=" col-lg-4 col-sm-4 mb-2 mb-lg-0  text-white text-md-left d-flex  ">
+              <p class="mx-2 p-2 selection ">info@bexar.com</p>
+              <p class=" px-2 pt-2 selection line">Call us now:</p>
+              <div class=" clr-1 bd-highlight mx-0 pt-2 ">123 456 7890</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid bg-body-tertiary">
+    <div class="row justify-content-center">
+      <div class="col-md-11">
+        <nav class="nav-bar py-4">
+          <div class="row navbar-expand-lg d-flex justify-content-between">
+            <div class="col-md-2">
+              <a class="navbar-brand" href="#"><img src="assets/image/logo.png" alt="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="col-md-10 d-flex justify-content-end">
+              <div class="navbar">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mb-2 mb-lg-0 gap-4 fw-bold">
+                    <li class="nav-item dropdown ">
+                      <a class="nav-link  dropdown-toggle active selection" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> HOME  </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Homepage 1</a></li>
+                        <li><a class="dropdown-item" href="#">Homepage 2</a></li>
+                        <li><a class="dropdown-item" href="#">Homepage 3</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle active selection" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        ABOUT US
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">About Us 1</a></li>
+                        <li><a class="dropdown-item" href="#">About Us 2</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle active selection" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        BLOG
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Blog</a></li>
+                        <li><a class="dropdown-item" href="#">Blog Sidebar</a></li>
+                        <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active  selection" aria-current="page" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle active selection" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        PAGES
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Team</a></li>
+                        <li><a class="dropdown-item" href="#">Case Study</a></li>
+                        <li><a class="dropdown-item" href="#">Project Detail</a></li>
+                        <li><a class="dropdown-item" href="#">Service 1</a></li>
+                        <li><a class="dropdown-item" href="#">Service 2</a></li>
+                        <li><a class="dropdown-item" href="#">Service Details</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle active selection" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        SHORT COURSE
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                      </ul>
+                    </li>
+                    <div class="search-icon pt-2">
+                      <a href="#"><i class="fa-solid fa-magnifying-glass fa-1x text-dark"></i></a>
+                    </div>
+                    <button type="button" class="btn4 text-white  border rounded-pill   p-3 h6 text-uppercase  ">More
+                      services</button>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <header>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative" data-bs-interval="10000">
+          <img src="assets/image/banner-2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-black col-md-5 text-start txt-position">
+            <h3>WE ARE HERE TO</h3>
+            <h1 class="display-5 fw-bold">PLANNING BUSSINESS</h1>
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium ad assumenda recusandae
+              repellendus quod inventore sit aut ea? Tempora maxime alias quos quae, doloremque accusamus rem laborum
+              necessitatibus nobis.
+            </p>
+            <button type="button" class="btn3  clr-1   rounded-pill  m-2 p-4 h6 text-uppercase  ">More
+              Details</button>
+          </div>
+        </div>
+        <div class="carousel-item position-relative" data-bs-interval="2000">
+          <img src="assets/image/banner-1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-black col-md-5 text-start txt-position">
+            <h3>WE ARE HERE TO</h3>
+            <h1 class="display-5 fw-bold">PLANNING BUSSINESS</h1>
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium ad assumenda recusandae
+              repellendus quod inventore sit aut ea? Tempora maxime alias quos quae, doloremque accusamus rem laborum
+              necessitatibus nobis.
+            </p>
+            <button type="button" class="btn3  clr-1   rounded-pill  m-2 p-4 h6 text-uppercase  ">More
+              Details</button>
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img src="assets/image/banner-4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-black col-md-5 text-start txt-position">
+            <h3>WE ARE HERE TO</h3>
+            <h1 class="display-5 fw-bold">PLANNING BUSSINESS</h1>
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium ad assumenda recusandae
+              repellendus quod inventore sit aut ea? Tempora maxime alias quos quae, doloremque accusamus rem laborum
+              necessitatibus nobis.
+            </p>
+            <button type="button" class="btn3  clr-1   rounded-pill  m-2 p-4 h6 text-uppercase  ">More
+              Details</button>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev carousel-control-width" type="button"
+        data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span aria-hidden="true"><i class="fa-solid fa-arrow-left  fa-2x  border p-2 btn4 rounded-circle"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next carousel-control-width" type="button"
+        data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span aria-hidden="true"><i class="fa-solid fa-arrow-right fa-2x  border p-2 btn4 rounded-circle"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </header>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row ">
+        <div class=" col-lg-3 col-sm-6 mb-4 mb-lg-0 ">
+          <div class=" text-white  bg-2 cards  text-center py-4 py-5  box-shadow transition ">
+            <div class="icon-bg mb-4 water-wave">
+              <i class="fa-regular fa-gem fa-3x"></i>
+            </div>
+            <div class="h4">BUSINESS SOLUTION</div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="cards col-lg-3 col-sm-6 mb-4 mb-lg-0  ">
+          <div class="clr-main-body  bg-1 py-5 py-4 box-shadow transition ">
+            <div class="icon-bg mb-4 water-wave ">
+              <i class="fa-solid fa-chart-column fa-3x "></i>
+            </div>
+            <div class="h4">MARKET RESEARCH</div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="cards col-lg-3 col-sm-6 mb-4 mb-lg-0  ">
+          <div class="clr-main-body  bg-1 py-5 py-4 box-shadow transition ">
+            <div class="icon-bg mb-4 water-wave">
+              <i class="fa-regular fa-lightbulb fa-3x "></i>
+            </div>
+            <div class="h4 ">BUSINESS STRATEGY</div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="cards col-lg-3 col-sm-6 mb-4  mb-lg-0">
+          <div class="clr-main-body  bg-1 py-5 py-4 box-shadow transition ">
+            <div class="icon-bg mb-4 water-wave  ">
+              <i class="fa-solid fa-gauge-high  fa-3x "></i>
+            </div>
+            <div class="h4">SPEED OPTIMIZATION</div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row justify-content-between align-item-center">
+        <img src="assets/image/about-us (1).png" alt="not here" class="col-md-5 section-title-border2">
+        <div class="col-md-6 section-title-border  py-5  ">
+          <p class="subtitle">About us</p>
+          <h2>WE ARE DYNAMIC TEAM AND BUSINESS AGENCY</h2>
+          <p>Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. laborum
+            sed
+            perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
+          <button type="button"
+            class="btn4 section-title-border2 text-white  border rounded-pill  m-2 p-3 h6 text-uppercase  ">More
+            services</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sec-3 bg-2 p-2 ">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="py-3 col-lg-3 col-sm-6 mb-4 mb-lg-0 ">
+            <div class="d-flex align-item-center ">
+              <i class="fa fa-bullseye fa-3x p-4 clr-1"></i>
+              <div class=" text-white">
+                <h1>
+                  <span class="count" data-count="50">25</span>
+                  +
+                </h1>
+                <p>Projects done</p>
+              </div>
+            </div>
+          </div>
+          <div class="py-3 col-lg-3 col-sm-6 mb-4 mb-lg-0 ">
+            <div class="d-flex align-item-center ">
+              <i class="fa-regular fa-calendar-days p-4 fa-3x clr-1"></i>
+              <div class=" text-white">
+                <h1>
+                  <span class="count" data-count="100">50</span>
+                  +
+                </h1>
+                <p>Years Experience</p>
+              </div>
+            </div>
+          </div>
+          <div class="py-3 col-lg-3 col-sm-6 mb-4 mb-lg-0 ">
+            <div class="d-flex align-item-center ">
+              <i class="fa fa-trophy fa-3x p-4 clr-1"></i>
+              <div class=" text-white">
+                <h1>
+                  <span class="count" data-count="500">250</span>
+                  +
+                </h1>
+                <p>Awards win </p>
+              </div>
+            </div>
+          </div>
+          <div class="py-3 col-lg-3 col-sm-6 mb-4 mb-lg-0 ">
+            <div class="d-flex align-item-center ">
+              <i class="fa-regular fa-face-smile fa-3x p-4 clr-1"></i>
+              <div class=" text-white">
+                <h1>
+                  <span class="count" data-count="1000">500</span>
+                  +
+                </h1>
+                <p>Happy Customers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container padding ">
+      <div class="row justify-content-center align-items-center section-title-border  pt-5 px-2">
+        <div class=" col-lg-6 col-sm-3 mb-3  mb-lg-0  ">
+          <div class="sec4  ">
+            <h5 class="clr-2 mb-4">Why Choose Us</h5>
+            <h1 class="mb-4 section-title-border2">WHY THEY CHOOSE BEXAR</h1>
+            <p class="mb-4 clr-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius tempor
+              incididunt ut labore.</p>
+            <ul class=" list-unstyled">
+              <li class="d-flex align-item-center mb-5">
+                <div class="text-center mr-4">
+                  <div class="icon-bg water-wave">
+                    <i class="fa-regular fa-snowflake fa-3x "></i>
+                  </div>
+                </div>
+                <div>
+                  <h4>CREATIVE DESIGN</h4>
+                  <p class="clr-2">sint occaecat cupidatat non proident sunt in culpa qui officia.</p>
+                </div>
+              </li>
+              <li class="d-flex align-item-center mb-5 ">
+                <div class="text-center mr-4">
+                  <div class="icon-bg water-wave ">
+                    <i class="fa fa-code fa-3x "></i>
+                  </div>
+                </div>
+                <div>
+                  <h4>PIXEL PERFECT CODING</h4>
+                  <p class="clr-2"> sint occaecat cupidatat non proident sunt in culpa qui officia.</p? </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 pr-l-0 order-lg-2 order-1 mb-5 mb-lg-0 py-3 ">
+          <div>
+            <img src="assets/image/feature (1).jpg" alt="not" class=" w-100 img-fluid mb-5 ">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sec-5 bg-2 ">
+    <div class="container-fluid">
+      <div class="container ">
+        <div class="row   ">
+          <div class=" col-lg-12 col-sm-10 mb-3 ">
+            <div class="mb-5 text-center">
+              <h4 class="subtitle ">Best Service</h4>
+              <h1 class="text-white ">SERVICE WE PROVIDE</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="bg-grey-white">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4  col-sm-6 mb-4 mb-lg-0">
+            <div class="cards-1">
+              <div class="card box-shadow">
+                <div class="img6 ">
+                  <img class="card-img-top" src="assets/image/service-1.jpg" alt="Card image cap">
+                </div>
+                <div class="icon-a">
+                  <i class="fa-solid fa-chart-column text-white rounded-circle"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Market Analysis</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consecte tur adipis elit sed eiusmod.</p>
+                  <a href="#" class="btn2 selection  h5 " style="text-decoration: none;">Read More <i
+                      class="fa-solid fa-arrow-right-long   icon2 "></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  col-sm-6 mb-4 mb-lg-0 ">
+            <div class="cards-1    ">
+              <div class="card box-shadow ">
+                <div class="img6">
+                  <img class="card-img-top" src="assets/image/service-2.jpg" alt="Card image cap">
+                </div>
+                <div class="icon-a">
+                  <i class="fa-regular fa-handshake text-white rounded-circle"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Business Consulting</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consecte tur adipis elit sed eiusmod.</p>
+                  <a href="#" class="btn2 selection  h5 " style="text-decoration: none;">Read More <i
+                      class="fa-solid fa-arrow-right-long   icon2 "></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <div class="cards-1">
+              <div class="card box-shadow">
+                <div class="img6">
+                  <img class="card-img-top" src="assets/image/service-3.jpg" alt="Card image cap">
+                </div>
+                <div class="icon-a">
+                  <i class="fa-solid fa-briefcase  text-white rounded-circle"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Invesment Planning</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consecte tur adipis elit sed eiusmod.</p>
+                  <a href="#" class="btn2 selection  h5 " style="text-decoration: none;">Read More <i
+                      class="fa-solid fa-arrow-right-long   icon2 "></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 text-center  ">
+            <h4 class="subtitle   ">Our Team</h4>
+            <h1>WE ARE DYNAMIC TEAM AND</h1>
+            <h1 class="mb-5 "> BUSINESS AGENCY</h1>
+          </div>
+        </div>
+        <div class="row mb-6 ">
+          <div class="col-lg-4 col-sm-3 ">
+            <div class="card-1 ">
+              <img src="assets/image/team-1.jpg" class="card-img-top" alt="...">
+              <h4 class="text-center mt-4 selection">MONICA HELLEONA</h4>
+              <p class="subtitle text-center">Designer</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-3">
+            <div class="card-1  ">
+              <img src="assets/image/team-2.jpg" class="card-img-top" alt="...">
+              <h4 class="text-center mt-4 selection">ALEX MONATINMO</h4>
+              <p class="subtitle text-center ">Project Manager</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-3">
+            <div class="card-1 ">
+              <img src="assets/image/team-3.jpg" class="card-img-top" alt="...">
+              <h4 class="text-center mt-4 selection">JENNIFER GARNER</h4>
+              <p class="subtitle text-center"> Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid ">
+      <div class="container padding">
+        <div class="row mt-6 padding section-title-border">
+          <div class="col-md-8">
+            <p class="subtitle">Case Study</p>
+            <h1>BEXAR CASE STUDIES</h1>
+          </div>
+          <div class="col-md-4 text-right align-self-end d-md-block d-sm-none">
+            <button type="button"
+              class="btn4 section-title-border2 text-white border rounded-pill   px-4 p-3 h6 text-uppercase  ">More
+              Projects</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid px-0">
+    <div class="row g-0">
+      <div class="col-lg-3 col-sm-2">
+        <div class="card-1">
+          <img src="assets/image/project-1.jpg" class="card-img-top" alt="...">
+          <p class="clr-1 text-uppercase pt-3 px-3 mb-0">Business SOLUTION</p>
+          <h5 class="selection px-3 "> ART INSTITUTE OF CHICAGO</h5>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-2">
+        <div class="card-1">
+          <img src="assets/image/project-2.jpg" class="card-img-top" alt="...">
+          <p class="clr-1 text-uppercase pt-3 px-3 mb-0">Digital Marketing</p>
+          <h5 class="selection px-3 "> ESSENTIAL LOOKS TREND REPORT</h5>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-2">
+        <div class="card-1">
+          <img src="assets/image/project-3.jpg" class="card-img-top" alt="...">
+          <p class="clr-1 text-uppercase pt-3 px-3 mb-0">Financial Analysis</p>
+          <h5 class="selection px-3 "> CARPE DIEM SANTORINI</h5>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-2">
+        <div class="card-1">
+          <img src="assets/image/project-3.jpg" class="card-img-top" alt="...">
+          <p class="clr-1 text-uppercase pt-3 px-3 mb-0 ">Marketing STRATEGY</p>
+          <h5 class="selection px-3"> CELEBRATE WITH STOLI</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-3">
+    <div class="container-fluid ">
+      <div class="container padding">
+        <div class="row text-center p-4">
+          <div class="col-lg-12 col-sm-12  p-5">
+            <p class="subtitle">Testimonials</p>
+            <h1>WHAT CLIENTS ARE SAY?</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider p-5">
+      <ul>
+        <li>
+          <img src="assets/image/gZ5HY0U.png" class="img2">
+          <div class="p-3">
+            <img src="assets/image/client-1.jpg" class="rounded-circle border">
+          </div>
+          <h1 class="text-dark">Hello world</h1>
+          <p class="text-dark">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus sapiente excepturi cumque
+            reprehenderit amet impedit maiores explicabo autem beatae. Nisi delectus sequi commodi recusandae saepe esse
+            distinctio facilis nemo tenetur?
+          </p>
+        </li>
+        <li><img src="assets/image/gZ5HY0U.png" class="img2">
+          <div class="p-3">
+            <img src="assets/image/client-2.jpg" class="rounded-circle border">
+          </div>
+          <h1 class="text-dark">Hello world</h1>
+          <p class="text-dark">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus sapiente excepturi cumque
+            reprehenderit amet impedit maiores explicabo autem beatae. Nisi delectus sequi commodi recusandae saepe esse
+            distinctio facilis nemo tenetur?
+          </p>
+        </li>
+        <li><img src="assets/image/gZ5HY0U.png" class="img2">
+          <div class="p-3">
+            <img src="assets/image/client-3.jpg" class="rounded-circle border">
+          </div>
+          <p class="text-dark">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus sapiente excepturi cumque
+            reprehenderit amet impedit maiores explicabo autem beatae. Nisi delectus sequi commodi recusandae saepe esse
+            distinctio facilis nemo tenetur?
+          </p>
+          <h1 class="text-dark">Hello world</h1>
+
+        </li>
+      </ul>
+      <!-- left -->
+      <button></button>
+      <!-- right -->
+      <button></button>
+    </div>
+
+
+  </div>
+  <div class="bg-img">
+    <div class=" container-fluid mt-5">
+      <div class="container p-5">
+        <div class="row justify-content-center p-5 ">
+          <div class="col-md-8  col-12 text-center text-white ">
+            <h1>BEXAR GIVE THE SMART SOLUTION FOR YOUR BUSINESS
+            </h1>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-12 text-center">
+            <button type="button" class="btn4 text-white  border rounded-pill  m-2 p-4 h6 text-uppercase  ">More
+              services</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-grey-white">
+    <div class="container-fluid">
+      <div class="container p-5 ">
+        <div class="row section-title-border">
+          <div class="col-lg-12 col-sm-3 p-3 mt-5">
+            <p class="subtitle">Latest News</p>
+          </div>
+          <div class="col-lg-12 col-sm-12 mt-2 section-title-border2">
+            <h1>Learn From Bexer</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="contanainer mb-5">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-3   col-sm-6 mb-4 mb-lg-0">
+            <div class="cards-2">
+              <div class="card box-shadow">
+                <div class="img6 ">
+                  <img class="card-img-top" src="assets/image/post-1.jpg" alt="Card image cap">
+                </div>
+                <div class="on-text text-white ">
+                  <p>Article</p>
+                </div>
+                <div class="card-body">
+                  <h6><span class="text-secondary">BY</span> ADMIN <span class="text-secondary">/</span> <span
+                      class="text-secondary">ON</span> 1 SEP, 2018</h6>
+                  <h5 class="card-title selection ">ELIT DUIED AIUSMOD TEMPOR DID LABORE DOLORY</h5>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet, consecte tur adipis elit sed eiusmod. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Vel repellat debitis dolor eveniet culpa sapiente
+                    quod</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+            <div class="cards-2">
+              <div class="card box-shadow">
+                <div class="img6">
+                  <img class="card-img-top" src="assets/image/post-2.jpg" alt="Card image cap">
+                </div>
+                <div class="on-text text-white ">
+                  <p>Article</p>
+                </div>
+                <div class="card-body">
+                  <h6><span class="text-secondary">BY</span> ADMIN <span class="text-secondary">/</span> <span
+                      class="text-secondary">ON</span> 1 SEP, 2018</h6>
+                  <h5 class="card-title selection ">ELIT DUIED AIUSMOD TEMPOR DID LABORE DOLORY</h5>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet, consecte tur adipis elit sed eiusmod. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Vel repellat debitis dolor eveniet culpa sapiente
+                    quod</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+            <div class="cards-2">
+              <div class="card box-shadow">
+                <div class="img6">
+                  <img class="card-img-top" src="assets/image/post-3.jpg" alt="Card image cap">
+                </div>
+                <div class="on-text text-white ">
+                  <p>Article</p>
+                </div>
+                <div class="card-body">
+                  <h6><span class="text-secondary">BY</span> ADMIN <span class="text-secondary">/</span> <span
+                      class="text-secondary">ON</span> 1 SEP, 2018</h6>
+                  <h5 class="card-title selection ">ELIT DUIED AIUSMOD TEMPOR DID LABORE DOLORY</h5>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet, consecte tur adipis elit sed eiusmod. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Vel repellat debitis dolor eveniet culpa sapiente
+                    quod</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="bg-2">
+      <div class="container-fluid p-5 ">
+        <div class="row justify-content-between p-5">
+          <div class="col-lg-6 col-sm-12 mb-lg-0 text-light pt-3">
+            <img href="#" src="assets/image/logo-alt (1).png" alt="..">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, rem sint? Eaque quam similique
+              maxime eius cum accusantium quos, eos, hic praesentium facere nobis. Repellendus nostrum pariatur
+              impedit cum a nihil, natus maxime quas molestiae asperiores velit voluptate aliquid possimus. Sint
+              perferendis unde repellat harum?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, repellat itaque? Earum magnam
+              cupiditate, reiciendis debitis sunt repellat quod eligendi perferendis aut, rerum magni voluptates nemo
+              est, corrupti commodi voluptate.</p>
+            <h4 class="text-uppercase text-white p-3">Follow us on</h4>
+            <div class="row ">
+              <div class="col-lg-12 ">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <span><i class="fa-brands icon fa-facebook-f border  rounded-circle p-4 "></i></span>
+                  </li>
+                  <li class="list-inline-item">
+                    <span><i class="fa-brands icon fa-twitter border rounded-circle p-4"></i></span>
+                  </li>
+                  <li class="list-inline-item">
+                    <span><i class="fa-brands icon fa-linkedin-in border rounded-circle p-4"></i></span>
+                  </li>
+                  <li class="list-inline-item">
+                    <span><i class="fa-brands icon fa-pinterest border rounded-circle p-4"></i></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 mb-lg-0  text-white">
+            <div class="row px-3">
+              <div class="col-lg-6 col-sm-12 f-w  mb-md-0">
+                <h5 class="text-uppercase px-2">Services</h5>
+
+                <ul class="list-unstyled  py-3  ">
+                  <li class="mb-3   ">
+                    <span class=""> <i class="fa-solid fa-angle-up fa-rotate-90 px-2 "></i></span>
+                    <a href="#!" class="text-light ">Company History </a>
+                  </li>
+                  <li class="mb-3">
+                    <i class="fa-solid fa-angle-up fa-rotate-90 px-2"></i> <a href="#!" class="text-light">About us </a>
+                  </li>
+                  <li class="mb-3">
+                    <i class="fa-solid fa-angle-up fa-rotate-90 px-2"></i> <a href="#!" class="text-light">Contact
+                      us</a>
+                  </li>
+                  <li class="mb-3">
+                    <i class="fa-solid fa-angle-up fa-rotate-90 px-2"></i> <a href="#!" class="text-light">Services </a>
+                  </li>
+                  <li class="mb-3">
+                    <i class="fa-solid fa-angle-up fa-rotate-90 px-2"></i> <a href="#!" class="text-light">Privacy
+                      Policy </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-md-6 mb-4 mb-md-0 f-w text-light ml-5">
+                <h5 class="text-uppercase  ">Contact info</h5>
+
+                <ul class="list-unstyled py-3">
+                  <li class="mb-3 f-w">
+                    <p> Turner Trace Apt. 466 North Willie, BC C3G8A4</p>
+                  </li>
+                  <li class="mb-3 f-w">
+                    <p class="text-light py-3"> +21 123 456 5523</p>
+                  </li>
+                  <li class="mb-3 f-w">
+                    <p class="text-light">info@bexar.com</p>
+                  </li>
+                </ul>
+              </div>
+
+              <h2 class="text-uppercase">Subscribe NewsLatter</h2>
+              <form class="form-footer my-3 ">
+                <input type="text" class="p-2 " style="caret-color: azure;" placeholder="Enter your Email"
+                  name="search">
+                <input type="button" class="btn4" value="Subscribe">
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </footer>
+  </div>
+  <!-- Copyright -->
+  <div class="bg-4">
+    <div class="container-fluid  ">
+      <div class="container">
+      <div class="row justify-content-between ">
+        <div class="col-lg-6 col-sm-12  pt-4">
+          <p class="text-white f-w2"> <span class="clr-1"> Bexar</span> © 2023 All Right Reserved</p>
+        </div>
+        <div class=" col-lg-4 col-sm-4 mb-2 mb-lg-0  text-white text-md-left d-flex  pt-4">
+          <p class="mx-2 p-2 selection f-w2">Terms of Service</p>
+          <p class=" px-2 pt-2 selection line f-w2">Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Copyright -->
+  <script>function Sliders(o) {
+      "use strict";
+      var time = o.time || 500,
+        autoTime = o.autoTime || 5000,
+        selector = o.selector,
+        width_height = o.width_height || 100 / 70,
+        sliders = document.querySelectorAll(selector),
+        i;
+      function css(elm, prop, val) {
+        elm.style[prop] = val;
+        prop = prop[0].toUpperCase() + prop.slice(1);
+        elm.style["webkit" + prop] = elm.style["moz" + prop] =
+          elm.style["ms" + prop] = elm.style["o" + prop] = val;
+      }
+      function anonimFunc(slider) {
+        var buttonLeft = slider.children[2],
+          buttonRight = slider.children[1],
+          ul = slider.children[0],
+          li = ul.children,
+          activeIndex = 0,
+          isAnimate = false,
+          i,
+          s;
+        ul.style.paddingTop = (100 / width_height) + "%";
+        for (i = 0; i < li.length; i += 1) {
+          css(li[i], "animationDuration", time + "ms");
+        }
+        li[activeIndex].classList.add("active");
+        function left() {
+          if (isAnimate) { return; }
+          clearTimeout(s);
+          isAnimate = true;
+          var nextIndex = (activeIndex < li.length - 1) ? (activeIndex + 1) : (0);
+          li[nextIndex].classList.add("next");
+          li[activeIndex].classList.add("left");
+          li[nextIndex].classList.add("active");
+          setTimeout(function () {
+            li[activeIndex].classList.remove("active");
+            li[activeIndex].classList.remove("left");
+            li[nextIndex].classList.remove("next");
+            li[nextIndex].classList.add("active");
+            activeIndex = nextIndex;
+            isAnimate = false;
+            s = setTimeout(left, autoTime);
+          }, time);
+        }
+        function right() {
+          if (isAnimate) { return; }
+          clearTimeout(s);
+          isAnimate = true;
+          var nextIndex = (activeIndex > 0) ? (activeIndex - 1) : (li.length - 1);
+          li[nextIndex].classList.add("previous");
+          li[activeIndex].classList.add("right");
+          li[nextIndex].classList.add("active");
+          setTimeout(function () {
+            li[activeIndex].classList.remove("active");
+            li[activeIndex].classList.remove("right");
+            li[nextIndex].classList.remove("previous");
+            li[nextIndex].classList.add("active");
+            activeIndex = nextIndex;
+            isAnimate = false;
+            s = setTimeout(right, autoTime);
+          }, time);
+        }
+        buttonLeft.addEventListener("click", left);
+        buttonRight.addEventListener("click", right);
+        s = setTimeout(right, autoTime);
+      }
+      for (i = 0; i < sliders.length; i += 1) {
+        anonimFunc(sliders[i]);
+      }
+    }
+
+
+    /* -- how to use it ? -- */
+    var sliders = new Sliders({
+      selector: ".slider",
+      time: 500,
+      autoTime: 3000,
+      width_height: 350 / 250
+    });
+    function counter() {
+      var oTop;
+      if ($('.count').length !== 0) {
+        oTop = $('.count').offset().top - window.innerHeight;
+      }
+      if ($(window).scrollTop() > oTop) {
+        $('.count').each(function () {
+          var $this = $(this),
+            countTo = $this.attr('data-count');
+          $({
+            countNum: $this.text()
+          }).animate({
+            countNum: countTo
+          }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function () {
+              $this.text(Math.floor(this.countNum));
+            },
+            complete: function () {
+              $this.text(this.countNum);
+            }
+          });
+        });
+      }
+    }
+    $(window).on('scroll', function () {
+      counter();
+    });
+
+  </script>
+</body>
+
+</html>
